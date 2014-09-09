@@ -1,0 +1,23 @@
+\documentclass[danish,a4paper,11pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage{slantsc}
+\usepackage{array}
+\usepackage{amsmath}
+\setkomafont{subsection}{\usefont{T1}{fvm}{m}{n}}
+\setkomafont{section}{\usefont{T1}{fvs}{b}{n}\Large}
+\setcounter{secnumdepth}{0}
+\pagestyle{empty}
+\usepackage{emerald}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+\section*{JD}
+\subsection*{\textbackslash ECFJD}
+\normalfont\ECFJD
+\input catalogue
+\newpage
+\normalfont\ECFJD
+\input fonttable
+
+\end{document}

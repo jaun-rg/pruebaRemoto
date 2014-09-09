@@ -1,0 +1,35 @@
+\documentclass[danish,a4paper,11pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+%\usepackage{babel}
+\usepackage{slantsc}
+\usepackage{array}
+\usepackage{amsmath}
+\setkomafont{subsection}{\usefont{T1}{fvm}{m}{n}}
+\setkomafont{section}{\usefont{T1}{fvs}{b}{n}\Large}
+\setcounter{secnumdepth}{0}
+\pagestyle{empty}
+\usepackage[default]{comfortaa}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+\section*{Comfortaa}
+\subsection*{\textbackslash normalfont}
+\normalfont\normalfont
+\input catalogue
+\subsection*{\textbackslash itshape}
+\normalfont\itshape
+\input catalogue
+\subsection*{\textbackslash bfseries}
+\normalfont\bfseries
+\input catalogue
+\subsection*{\textbackslash scshape}
+\normalfont\scshape
+\input catalogue
+\subsection*{\textbackslash itshape\textbackslash scshape}
+\normalfont\itshape\scshape
+\input catalogue
+\newpage
+\normalfont\normalfont
+\input fonttable
+
+\end{document}
